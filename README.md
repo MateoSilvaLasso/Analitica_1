@@ -15,12 +15,14 @@ Analitica_1/
 │   ├── historico_hallazgos.csv   # Datos históricos de hallazgos de auditoría
 │   ├── colocacion_octubre_2024.csv # Datos de colocación de octubre 2024
 │   └── README_data.md            # Descripción de los datos y su estructura
-├─── output_data/                 # Carpeta para almacenar datos resultantes de otros analisis
-|    ├── hallazgos_clean.xlsx     # Datos historicos de hallazgos luego de la limpieza
+├────── output_data/              # Carpeta para almacenar datos resultantes de otros analisis
+|       ├── hallazgos_clean.xlsx    # Datos historicos de hallazgos luego de la limpieza
 ├── notebooks/                    # Jupyter Notebooks para análisis y modelado
 │   ├── data_cleaning.ipynb
 │   ├── data_correlation.ipynb
 │   └── EDA_monto.ipynb
+├────── bivariate_analysis/       # Carpeta para analisis bivariados por analista
+|       ├──                       # 
 ├── src/                          # Código fuente en Python
 ├── results/                      # Resultados del análisis
 ├── otros_archivos/               # Documentación adicional
